@@ -1,0 +1,1448 @@
+{
+    "Images": [
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2024-05-29T21:17:10.000Z",
+            "ImageId": "ami-00c10b6b04e28df6b",
+            "ImageLocation": "446077236781/jenkins-infra-node-sls-mdlz-latam-api 1717017006",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "Iops": 3000,
+                        "SnapshotId": "snap-043b535cc3c981771",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp3",
+                        "Throughput": 125,
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-sls-mdlz-latam-api 1717017006",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "DeprecationTime": "2026-05-29T21:17:10.000Z"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2024-05-30T17:54:53.000Z",
+            "ImageId": "ami-00a788297b822027f",
+            "ImageLocation": "446077236781/jenkins-infra-node-sls 1717091358",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0fa4967e9c66987d9",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-sls 1717091358",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "BootMode": "uefi-preferred",
+            "DeprecationTime": "2026-05-30T17:54:53.000Z",
+            "ImdsSupport": "v2.0"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-06-08T17:11:32.000Z",
+            "ImageId": "ami-0111c4610910b1c80",
+            "ImageLocation": "446077236781/jenkins-infra-node-tf 1686243511",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-00c4e1af8bcbecf7f",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-tf 1686243511",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "DeprecationTime": "2025-06-08T17:11:32.000Z"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2024-12-27T22:17:56.000Z",
+            "ImageId": "ami-01104bbc1c1c6e0e8",
+            "ImageLocation": "446077236781/jenkins-infra-node-sls 1735337370",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0661ecac3da46f867",
+                        "VolumeSize": 50,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-sls 1735337370",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "BootMode": "uefi-preferred",
+            "DeprecationTime": "2026-12-27T22:17:56.000Z",
+            "ImdsSupport": "v2.0"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-06-08T16:33:39.000Z",
+            "ImageId": "ami-019660ea6c88c6675",
+            "ImageLocation": "446077236781/jenkins-infra-node-tf 1686241303",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-02d108d853808ad55",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-tf 1686241303",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "DeprecationTime": "2025-06-08T16:33:39.000Z"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2024-12-30T16:54:59.000Z",
+            "ImageId": "ami-01a66e8aef21d487c",
+            "ImageLocation": "446077236781/jenkins-infra-node-sls 1735577287",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-08c5973de7120490a",
+                        "VolumeSize": 50,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-sls 1735577287",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "BootMode": "uefi-preferred",
+            "DeprecationTime": "2026-12-30T16:54:59.000Z",
+            "ImdsSupport": "v2.0"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-06-14T17:45:29.000Z",
+            "ImageId": "ami-02459c7e7c947984e",
+            "ImageLocation": "446077236781/jenkins-infra-node-sls 1686763859",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-017524a6d4a352e7e",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-sls 1686763859",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "DeprecationTime": "2025-06-14T17:45:29.000Z"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2024-05-30T21:39:54.000Z",
+            "ImageId": "ami-029c81dd9e00c8fb4",
+            "ImageLocation": "446077236781/jenkins-infra-node-sls 1717104382",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-01236a23433b8dc0f",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-sls 1717104382",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "DeprecationTime": "2026-05-30T21:39:54.000Z"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2025-05-12T22:03:12.000Z",
+            "ImageId": "ami-02e3bf19c109fdf10",
+            "ImageLocation": "446077236781/jenkins-infra-node-sls-mdlz-latam-api 1747086928",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "Iops": 3000,
+                        "SnapshotId": "snap-033e1dfee3523325b",
+                        "VolumeSize": 50,
+                        "VolumeType": "gp3",
+                        "Throughput": 125,
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-sls-mdlz-latam-api 1747086928",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "BootMode": "uefi-preferred",
+            "DeprecationTime": "2027-05-12T22:03:12.000Z",
+            "ImdsSupport": "v2.0"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2024-08-15T17:50:36.000Z",
+            "ImageId": "ami-030f560678ab7da97",
+            "ImageLocation": "446077236781/jenkins-infra-node-tf 1723743863",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0f8ea11085f136c93",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-tf 1723743863",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "BootMode": "uefi-preferred",
+            "DeprecationTime": "2026-08-15T17:50:36.000Z",
+            "ImdsSupport": "v2.0"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2025-05-21T21:50:13.000Z",
+            "ImageId": "ami-0354d6c85d54af902",
+            "ImageLocation": "446077236781/jenkins-infra-node-tf 1747863482",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0e3a97fc78debb7d3",
+                        "VolumeSize": 80,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-tf 1747863482",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "DeprecationTime": "2027-05-21T21:50:13.000Z"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-12-07T18:36:16.000Z",
+            "ImageId": "ami-036c59b1d709696f6",
+            "ImageLocation": "446077236781/jenkins-infra-node-tf 1701973429",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0f5560cbd66919a14",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-tf 1701973429",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "DeprecationTime": "2025-12-07T18:36:16.000Z"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-12-07T17:42:07.000Z",
+            "ImageId": "ami-04eedd3d64f02eeb6",
+            "ImageLocation": "446077236781/jenkins-infra-node-tf 1701970196",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-00e2f7adfa2374b71",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-tf 1701970196",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "DeprecationTime": "2025-12-07T17:42:07.000Z"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2024-12-27T22:31:33.000Z",
+            "ImageId": "ami-0509e653135ec007c",
+            "ImageLocation": "446077236781/jenkins-infra-node-sls 1735338302",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-084847664950190f6",
+                        "VolumeSize": 50,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-sls 1735338302",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "BootMode": "uefi-preferred",
+            "DeprecationTime": "2026-12-27T22:31:33.000Z",
+            "ImdsSupport": "v2.0"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2025-05-14T13:54:44.000Z",
+            "ImageId": "ami-0515234d412481ec0",
+            "ImageLocation": "aws-marketplace/jenkins-build_aws_343_jrs-ent_jrs-9.0.1-hf2-99dca601-0680-4847-b32c-c5e940312f67",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "679593333241",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "ProductCodes": [
+                {
+                    "ProductCodeId": "93x9do1wjsr2d8vfui8zhv04n",
+                    "ProductCodeType": "marketplace"
+                }
+            ],
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0ee94d3934375024e",
+                        "VolumeSize": 50,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                },
+                {
+                    "DeviceName": "/dev/sdb",
+                    "VirtualName": "ephemeral0"
+                }
+            ],
+            "Description": "[Copied ami-0bbce94cc08f366cd from us-east-1] jenkins-build_aws_343_jrs-ent_jrs-9.0.1-hf2",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "aws-marketplace",
+            "Name": "jenkins-build_aws_343_jrs-ent_jrs-9.0.1-hf2-99dca601-0680-4847-b32c-c5e940312f67",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "BootMode": "uefi-preferred",
+            "DeprecationTime": "2027-05-14T13:54:44.000Z",
+            "ImdsSupport": "v2.0"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2025-05-14T13:52:01.000Z",
+            "ImageId": "ami-066932c10a1a34c03",
+            "ImageLocation": "aws-marketplace/jenkins-build_aws_341_byol_jrs-9.0.1-hf2-d1e07748-486c-48a1-80c2-053147fc904f",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "679593333241",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "ProductCodes": [
+                {
+                    "ProductCodeId": "cfb2v3b3xbdv1o2jkstuaczf3",
+                    "ProductCodeType": "marketplace"
+                }
+            ],
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-08f7e2352ee5bea9e",
+                        "VolumeSize": 50,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                },
+                {
+                    "DeviceName": "/dev/sdb",
+                    "VirtualName": "ephemeral0"
+                }
+            ],
+            "Description": "[Copied ami-0397e6cdb0e52079c from us-east-1] jenkins-build_aws_341_byol_jrs-9.0.1-hf2",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "aws-marketplace",
+            "Name": "jenkins-build_aws_341_byol_jrs-9.0.1-hf2-d1e07748-486c-48a1-80c2-053147fc904f",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "BootMode": "uefi-preferred",
+            "DeprecationTime": "2027-05-14T13:52:01.000Z",
+            "ImdsSupport": "v2.0"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2025-02-14T06:39:55.000Z",
+            "ImageId": "ami-06739511bc5254cf9",
+            "ImageLocation": "446077236781/jenkins-infra-node-tf 1739514512",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0a471ff647a327218",
+                        "VolumeSize": 50,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-tf 1739514512",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "DeprecationTime": "2027-02-14T06:39:55.000Z"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2024-02-13T22:32:45.000Z",
+            "ImageId": "ami-06c4d691db4cfdc9f",
+            "ImageLocation": "446077236781/jenkins-infra-node-tf 1707862840",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-081a47b44b69885be",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-tf 1707862840",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "DeprecationTime": "2026-02-13T22:32:45.000Z"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2025-01-29T20:49:08.000Z",
+            "ImageId": "ami-080f5f3be89bc5358",
+            "ImageLocation": "446077236781/jenkins-infra-node-blushbar-sls 1738183418",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0de5e206f5477d2ab",
+                        "VolumeSize": 50,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-blushbar-sls 1738183418",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "BootMode": "uefi-preferred",
+            "DeprecationTime": "2027-01-29T20:49:08.000Z",
+            "ImdsSupport": "v2.0"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-12-07T20:27:58.000Z",
+            "ImageId": "ami-07e5f2e55e90a0c9f",
+            "ImageLocation": "446077236781/jenkins-infra-node-tf 1701980180",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-02f09ef4700d4e2b1",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-tf 1701980180",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "DeprecationTime": "2025-12-07T20:27:58.000Z"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2024-04-22T20:10:24.000Z",
+            "ImageId": "ami-082a821f18c2a6b49",
+            "ImageLocation": "446077236781/jenkins-infra-node-tf 1713815987",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "Iops": 3000,
+                        "SnapshotId": "snap-0f81578e2970c67bf",
+                        "VolumeSize": 50,
+                        "VolumeType": "gp3",
+                        "Throughput": 125,
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-tf 1713815987",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "DeprecationTime": "2026-04-22T20:10:24.000Z"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2025-02-12T16:14:34.000Z",
+            "ImageId": "ami-08414039947182da5",
+            "ImageLocation": "446077236781/jenkins-infra-node-tf 1739376172",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-004e1f0d4d332a8eb",
+                        "VolumeSize": 50,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-tf 1739376172",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "DeprecationTime": "2027-02-12T16:14:34.000Z"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2025-01-14T19:39:44.000Z",
+            "ImageId": "ami-0835bcc142f018fc2",
+            "ImageLocation": "446077236781/jenkins-infra-node-tf 1736882921",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0927bbd0ec95293db",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-tf 1736882921",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "DeprecationTime": "2027-01-14T19:39:44.000Z"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2025-01-24T19:10:15.000Z",
+            "ImageId": "ami-08bea95dc386a202b",
+            "ImageLocation": "446077236781/jenkins-infra-node-sls 1737745430",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-05518740fc60a1309",
+                        "VolumeSize": 50,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-sls 1737745430",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "BootMode": "uefi-preferred",
+            "DeprecationTime": "2027-01-24T19:10:15.000Z",
+            "ImdsSupport": "v2.0"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2024-11-19T04:13:50.000Z",
+            "ImageId": "ami-08dc139236e018710",
+            "ImageLocation": "aws-marketplace/jenkins_by_cloudeya_001r10-5e2b01d2-ddba-43b3-bb89-a8374d46f9f2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "679593333241",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "ProductCodes": [
+                {
+                    "ProductCodeId": "5kp5yd27dvlrx31vbwyukbbaq",
+                    "ProductCodeType": "marketplace"
+                }
+            ],
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "Iops": 3000,
+                        "SnapshotId": "snap-03308e7f3dd1d8030",
+                        "VolumeSize": 20,
+                        "VolumeType": "gp3",
+                        "Throughput": 125,
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Jenkins by Cloudeya 0.0.1-r10",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "aws-marketplace",
+            "Name": "jenkins_by_cloudeya_001r10-5e2b01d2-ddba-43b3-bb89-a8374d46f9f2",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "BootMode": "uefi-preferred",
+            "DeprecationTime": "2026-11-19T04:13:50.000Z",
+            "ImdsSupport": "v2.0"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2025-01-24T20:04:17.000Z",
+            "ImageId": "ami-097cc6a1a0b149d18",
+            "ImageLocation": "aws-marketplace/jenkins-2.7.0-prod-wqjwgmkrdsgme",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "679593333241",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "ProductCodes": [
+                {
+                    "ProductCodeId": "2ctj181gpsqp5psg8yewqrou",
+                    "ProductCodeType": "marketplace"
+                }
+            ],
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "Iops": 3000,
+                        "SnapshotId": "snap-0c2c80c452ffacd1e",
+                        "VolumeSize": 45,
+                        "VolumeType": "gp3",
+                        "Throughput": 125,
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Jenkins AMI version 2.7.0",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "aws-marketplace",
+            "Name": "jenkins-2.7.0-prod-wqjwgmkrdsgme",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "BootMode": "uefi-preferred",
+            "DeprecationTime": "2027-01-24T20:04:17.000Z",
+            "ImdsSupport": "v2.0"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2024-11-19T05:42:19.000Z",
+            "ImageId": "ami-0985711e900ce5049",
+            "ImageLocation": "aws-marketplace/jenkins_by_cloudeya_ubuntu_001r10-5e2b01d2-ddba-43b3-bb89-a8374d46f9f2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "679593333241",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "ProductCodes": [
+                {
+                    "ProductCodeId": "5kp5yd27dvlrx31vbwyukbbaq",
+                    "ProductCodeType": "marketplace"
+                }
+            ],
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "Iops": 3000,
+                        "SnapshotId": "snap-0e0be8a2e3ceb431c",
+                        "VolumeSize": 20,
+                        "VolumeType": "gp3",
+                        "Throughput": 125,
+                        "Encrypted": false
+                    }
+                },
+                {
+                    "DeviceName": "/dev/sdb",
+                    "VirtualName": "ephemeral0"
+                },
+                {
+                    "DeviceName": "/dev/sdc",
+                    "VirtualName": "ephemeral1"
+                }
+            ],
+            "Description": "jenkins_by_cloudeya_ubuntu_001r10",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "aws-marketplace",
+            "Name": "jenkins_by_cloudeya_ubuntu_001r10-5e2b01d2-ddba-43b3-bb89-a8374d46f9f2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "BootMode": "uefi-preferred",
+            "DeprecationTime": "2026-11-19T05:42:19.000Z",
+            "ImdsSupport": "v2.0"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2025-01-29T20:18:42.000Z",
+            "ImageId": "ami-09f169046668c0414",
+            "ImageLocation": "446077236781/jenkins-infra-node-sls 1738181523",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0232228185da0b88c",
+                        "VolumeSize": 50,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-sls 1738181523",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "BootMode": "uefi-preferred",
+            "DeprecationTime": "2027-01-29T20:18:42.000Z",
+            "ImdsSupport": "v2.0"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-06-14T23:19:58.000Z",
+            "ImageId": "ami-0a090455ed79669f2",
+            "ImageLocation": "446077236781/jenkins-infra-node-sls 1686784216",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0143d39ebc12183fa",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-sls 1686784216",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "DeprecationTime": "2025-06-14T23:19:58.000Z"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2025-01-28T21:54:43.000Z",
+            "ImageId": "ami-0b20440f5679724d4",
+            "ImageLocation": "446077236781/jenkins-infra-node-tf 1738100562",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0213cc80a0be5ad66",
+                        "VolumeSize": 50,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-tf 1738100562",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "DeprecationTime": "2027-01-28T21:54:43.000Z"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2025-01-29T21:34:05.000Z",
+            "ImageId": "ami-0bd5b3e9eaf647684",
+            "ImageLocation": "446077236781/jenkins-infra-node-sls-mdlz-latam-api 1738186187",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "Iops": 3000,
+                        "SnapshotId": "snap-0a78f60974c7d4f57",
+                        "VolumeSize": 50,
+                        "VolumeType": "gp3",
+                        "Throughput": 125,
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-sls-mdlz-latam-api 1738186187",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "BootMode": "uefi-preferred",
+            "DeprecationTime": "2027-01-29T21:34:05.000Z",
+            "ImdsSupport": "v2.0"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2024-12-27T21:48:21.000Z",
+            "ImageId": "ami-0bd19af8944e9d73b",
+            "ImageLocation": "446077236781/jenkins-infra-node-sls 1735335705",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-00c6aefe204fecc60",
+                        "VolumeSize": 50,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-sls 1735335705",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "BootMode": "uefi-preferred",
+            "DeprecationTime": "2026-12-27T21:48:21.000Z",
+            "ImdsSupport": "v2.0"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2025-04-22T21:44:02.000Z",
+            "ImageId": "ami-0c090b282c923f386",
+            "ImageLocation": "446077236781/jenkins-infra-node-sls-mdlz-latam-api 1745357883",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "Iops": 3000,
+                        "SnapshotId": "snap-076af934a3d0ed31c",
+                        "VolumeSize": 50,
+                        "VolumeType": "gp3",
+                        "Throughput": 125,
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-sls-mdlz-latam-api 1745357883",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "BootMode": "uefi-preferred",
+            "DeprecationTime": "2027-04-22T21:44:02.000Z",
+            "ImdsSupport": "v2.0"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2024-05-30T22:51:08.000Z",
+            "ImageId": "ami-0c4fb5203ec9ec44d",
+            "ImageLocation": "446077236781/jenkins-infra-node-sls 1717109086",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0a71eac49a8ee6ba4",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-sls 1717109086",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "BootMode": "uefi-preferred",
+            "DeprecationTime": "2026-05-30T22:51:08.000Z",
+            "ImdsSupport": "v2.0"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2024-05-30T21:51:26.000Z",
+            "ImageId": "ami-0c3fe87a79c7562c6",
+            "ImageLocation": "446077236781/jenkins-infra-node-sls 1717105553",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0eb6bbe9583b07ee3",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-sls 1717105553",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "BootMode": "uefi-preferred",
+            "DeprecationTime": "2026-05-30T21:51:26.000Z",
+            "ImdsSupport": "v2.0"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2024-12-30T17:53:22.000Z",
+            "ImageId": "ami-0d425597db9d8fa1b",
+            "ImageLocation": "446077236781/jenkins-infra-node-tf 1735580492",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0bc12fc97fbad7a4e",
+                        "VolumeSize": 50,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-tf 1735580492",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "DeprecationTime": "2026-12-30T17:53:22.000Z"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2024-12-30T18:17:34.000Z",
+            "ImageId": "ami-0ea41e2b5e52572e0",
+            "ImageLocation": "446077236781/jenkins-infra-node-sls-mdlz-latam-api 1735582320",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "Iops": 3000,
+                        "SnapshotId": "snap-09151f98e1636cd3d",
+                        "VolumeSize": 50,
+                        "VolumeType": "gp3",
+                        "Throughput": 125,
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-sls-mdlz-latam-api 1735582320",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "BootMode": "uefi-preferred",
+            "DeprecationTime": "2026-12-30T18:17:34.000Z",
+            "ImdsSupport": "v2.0"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-12-07T19:58:33.000Z",
+            "ImageId": "ami-0f1ae239cc06668c1",
+            "ImageLocation": "446077236781/jenkins-infra-node-tf 1701978337",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0aceb9c7b1ed3f096",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-tf 1701978337",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "DeprecationTime": "2025-12-07T19:58:33.000Z"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2024-02-14T14:29:11.000Z",
+            "ImageId": "ami-0f05bb87f257d9e83",
+            "ImageLocation": "446077236781/jenkins-infra-node-sls 1707920159",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-01348d86204765ec5",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-sls 1707920159",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "DeprecationTime": "2026-02-14T14:29:11.000Z"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2025-05-14T13:53:43.000Z",
+            "ImageId": "ami-0f832aed49625d727",
+            "ImageLocation": "aws-marketplace/jenkins-build_aws_342_jrs_jrs-9.0.1-hf2-41a2b8af-4e81-4903-8ca0-ba34a14f0d77",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "679593333241",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "ProductCodes": [
+                {
+                    "ProductCodeId": "3vvzc053rkeoxhvedm2u1dgfr",
+                    "ProductCodeType": "marketplace"
+                }
+            ],
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-092bdf598bb8dd605",
+                        "VolumeSize": 50,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                },
+                {
+                    "DeviceName": "/dev/sdb",
+                    "VirtualName": "ephemeral0"
+                }
+            ],
+            "Description": "[Copied ami-0a7305e1d54aa8d91 from us-east-1] jenkins-build_aws_342_jrs_jrs-9.0.1-hf2",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "aws-marketplace",
+            "Name": "jenkins-build_aws_342_jrs_jrs-9.0.1-hf2-41a2b8af-4e81-4903-8ca0-ba34a14f0d77",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "BootMode": "uefi-preferred",
+            "DeprecationTime": "2027-05-14T13:53:43.000Z",
+            "ImdsSupport": "v2.0"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2024-12-27T23:03:36.000Z",
+            "ImageId": "ami-0f979ce80c6105b99",
+            "ImageLocation": "446077236781/jenkins-infra-node-sls-mdlz-latam-api 1735340263",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "446077236781",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "Iops": 3000,
+                        "SnapshotId": "snap-091e35d30d10c217e",
+                        "VolumeSize": 50,
+                        "VolumeType": "gp3",
+                        "Throughput": 125,
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jenkins-infra-node-sls-mdlz-latam-api 1735340263",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "BootMode": "uefi-preferred",
+            "DeprecationTime": "2026-12-27T23:03:36.000Z",
+            "ImdsSupport": "v2.0"
+        }
+    ]
+}
