@@ -2,7 +2,7 @@
 resource "aws_security_group" "jenkins_rules" {
   name        = "Jenkins rules"
   description = "Allow inbound traffic"
-  
+
 dynamic "ingress" {
     for_each = local.ingress
     content {
@@ -28,7 +28,7 @@ dynamic "ingress" {
 
 
 # Create EC2 Instance
-resource "aws_instance" "jenkins_server" {
+resource "aws_instance" "jenkins-ec2" {
   ami           = var.ami
   instance_type = var.instance_type
   vpc_security_group_ids = [aws_security_group.jenkins_rules.id]
@@ -46,5 +46,5 @@ resource "aws_instance" "jenkins_server" {
 
 # Define output
 output "public_ip" {
-  value = aws_instance.jenkins_server.public_ip
+  value = aws_instance.jenkins-ec2.public_ip
 }

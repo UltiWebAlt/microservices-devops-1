@@ -1,9 +1,9 @@
 variable "instance_type" {
   type = string
-  default = "t2.xlarge"
+  default = "t2.large"
 }
 
 variable "ami" {
   type = string
-  default = "ami-0c7217cdde317cfec"
+  default = "ami-084568db4383264d4"
 }
