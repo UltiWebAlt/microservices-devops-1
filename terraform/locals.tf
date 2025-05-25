@@ -1,7 +1,7 @@
 locals {
     ingress = [{
         port = 22
-        description = "SH"
+        description = "SSH"
         protocol = "tcp"
     },
     {
